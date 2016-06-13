@@ -1,0 +1,74 @@
+/* image is too big and text illegible*/
+/* body {
+  background-image: url("background.jpg")
+} */
+
+body {
+  background-image: url("backg-gradient-small.jpg");
+  background-repeat: repeat-x;
+}
+
+ h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 150px;
+  text-align: center;
+  line-height: 0.1;
+  padding-bottom: 0.2px;
+  margin-top: 70px;
+}
+
+h2 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 100px;
+  line-height: 0.1;
+  padding-top: 0.2px;
+  letter-spacing: 25px;
+  text-align: center;
+  text-indent:25px;
+
+}
+
+/*h2:hover {
+  color: #c22878;
+}*/
+
+a:link    {color:black; background-color:transparent; text-decoration:none}
+a:visited {color:black; background-color:transparent; text-decoration:none}
+a:hover   {color:#c22878; background-color:transparent; text-decoration:none}
+a:active  {color:black; background-color:transparent; text-decoration:underline}
+
+img {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+h3 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+.work {
+  float:left;
+  margin-left: 230px;
+
+}
+
+.edu {
+  float:right;
+  margin-right: 230px;
+}
+
+footer {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 10px;
+text-align:center;
+margin-top: 50px;
+}
